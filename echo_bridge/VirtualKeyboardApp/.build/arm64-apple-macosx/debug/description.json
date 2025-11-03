@@ -1,0 +1,648 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.xctest/Contents/MacOS/VirtualKeyboardAppPackageTests",
+      "packagePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp",
+      "productName" : "VirtualKeyboardAppPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VirtualKeyboardApp-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/sources",
+      "importPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/HandData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/KeyboardKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/TouchEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/FingertipDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/HandDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/ShadowAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/TouchValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VirtualKeyboardApp",
+      "moduleOutputPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardApp.swiftmodule",
+      "objects" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandData.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/KeyboardKey.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchEvent.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/FingertipDetector.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandDetector.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/ShadowAnalyzer.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchValidator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/VirtualKeyboardApp-Swift.h",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/KeyboardKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/FingertipDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/ShadowAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/HandData.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/KeyboardKey.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/TouchEvent.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/FingertipDetector.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/HandDetector.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/ShadowAnalyzer.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/TouchValidator.swift"
+      ],
+      "tempsPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VirtualKeyboardAppPackageTests-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/sources",
+      "importPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardAppTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VirtualKeyboardAppPackageTests",
+      "moduleOutputPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardAppPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/VirtualKeyboardAppPackageTests-Swift.h",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardAppPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VirtualKeyboardAppTests-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/sources",
+      "importPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/FingertipDetectorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/ShadowAnalyzerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/TouchValidatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardApp.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VirtualKeyboardAppTests",
+      "moduleOutputPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardAppTests.swiftmodule",
+      "objects" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/FingertipDetectorTests.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/ShadowAnalyzerTests.swift.o",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/TouchValidatorTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/FingertipDetectorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/ShadowAnalyzerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/TouchValidatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules/VirtualKeyboardAppTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/FingertipDetectorTests.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/ShadowAnalyzerTests.swift",
+        "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/TouchValidatorTests.swift"
+      ],
+      "tempsPath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VirtualKeyboardApp" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VirtualKeyboardApp",
+      "-incremental",
+      "-c",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/HandData.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/KeyboardKey.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/TouchEvent.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/FingertipDetector.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/HandDetector.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/ShadowAnalyzer.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/TouchValidator.swift",
+      "-I",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/VirtualKeyboardApp-Swift.h",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "VirtualKeyboardAppPackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VirtualKeyboardAppPackageTests",
+      "-incremental",
+      "-c",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/VirtualKeyboardAppPackageTests-Swift.h",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "VirtualKeyboardAppTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VirtualKeyboardAppTests",
+      "-incremental",
+      "-c",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/FingertipDetectorTests.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/ShadowAnalyzerTests.swift",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/TouchValidatorTests.swift",
+      "-I",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VirtualKeyboardApp" : [
+
+    ],
+    "VirtualKeyboardAppPackageTests" : [
+      "VirtualKeyboardAppTests",
+      "VirtualKeyboardApp"
+    ],
+    "VirtualKeyboardAppTests" : [
+      "VirtualKeyboardApp"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/HandData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/KeyboardKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/TouchEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/FingertipDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/HandDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/ShadowAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/TouchValidator.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/sources"
+    },
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/sources"
+    },
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/FingertipDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/HandDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/KeyboardKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/ShadowAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardApp.build/TouchValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/FingertipDetectorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/ShadowAnalyzerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/TouchValidatorTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/FingertipDetectorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/ShadowAnalyzerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Tests/TouchValidatorTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/VirtualKeyboardAppTests.build/sources"
+    },
+    "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

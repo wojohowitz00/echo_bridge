@@ -1,0 +1,19 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "220c4ef9d6e64933cd740593fad79fd7416ce4db64153befc7d354c3fda1b2fb"
+build_start_time: [1762087055, 799804000]
+build_end_time: [1762087092, 156865000]
+inputs:
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/HandData.swift"
+  : [1761998453, 581994069]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/KeyboardKey.swift"
+  : [1761998478, 320779747]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Models/TouchEvent.swift"
+  : [1761998464, 339959642]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/FingertipDetector.swift"
+  : [1762020053, 748894983]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/HandDetector.swift"
+  : [1761999815, 491713400]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/ShadowAnalyzer.swift"
+  : [1762038065, 490116173]
+  ? "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/Sources/Vision/TouchValidator.swift"
+  : [1762085996, 588543534]

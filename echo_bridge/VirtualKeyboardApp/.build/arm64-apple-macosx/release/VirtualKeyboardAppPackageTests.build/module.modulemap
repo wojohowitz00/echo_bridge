@@ -1,0 +1,4 @@
+module VirtualKeyboardAppPackageTests {
+    header "/Users/richardyu/Library/Mobile Documents/com~apple~CloudDocs/1 Projects/echo_bridge/VirtualKeyboardApp/.build/arm64-apple-macosx/release/VirtualKeyboardAppPackageTests.build/VirtualKeyboardAppPackageTests-Swift.h"
+    requires objc
+}
