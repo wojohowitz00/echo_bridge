@@ -14,6 +14,12 @@ from ai_data_science_team.utils.dataframe_compat import (
     to_pandas,
     to_polars,
 )
+from ai_data_science_team.utils.duckdb_manager import DuckDBManager
+from ai_data_science_team.utils.marimo_generator import (
+    MarimoCell,
+    MarimoNotebook,
+    NotebookBuilder,
+)
 
 __all__ = [
     "describe",
@@ -29,4 +35,10 @@ __all__ = [
     "to_pandas",
     # DataFrame compatibility functions
     "to_polars",
+    # Database management
+    "DuckDBManager",
+    # Notebook generation
+    "MarimoCell",
+    "MarimoNotebook",
+    "NotebookBuilder",
 ]
