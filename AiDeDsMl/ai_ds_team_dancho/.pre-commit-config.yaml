@@ -1,16 +1,18 @@
 repos:
-  - repo: https://github.com/psf/black
-    rev: 24.1.1
+  # ruff: All-in-one linter + formatter (replaces black, isort, flake8, mypy)
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.11
     hooks:
-      - id: black
-        language_version: python3.9
+      # Linting: E, W, F, I, UP, B, C4, RUF, TCH
+      - id: ruff
+        args: [--fix]
+        stages: [commit]
 
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.13.2
-    hooks:
-      - id: isort
-        args: [--profile, black]
+      # Formatting: replaces black
+      - id: ruff-format
+        stages: [commit]
 
+  # Standard pre-commit hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -19,10 +21,3 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
         args: ['--maxkb=1000']
-
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.8.0
-    hooks:
-      - id: mypy
-        additional_dependencies: [types-requests, types-PyYAML]
-        args: [--ignore-missing-imports, --warn-return-any=False]
