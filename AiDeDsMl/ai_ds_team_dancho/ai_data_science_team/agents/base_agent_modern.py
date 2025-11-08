@@ -10,6 +10,7 @@ This module provides a modern base agent that:
 
 import json
 import logging
+import tempfile
 from abc import ABC, abstractmethod
 from datetime import datetime
 from pathlib import Path
@@ -71,7 +72,11 @@ class BaseAgentModern(ABC):
         self.name = name
         self.description = description
         self.db_manager = DuckDBManager(db_path)
-        self.notebook_dir = notebook_dir or Path("notebooks/generated")
+        # Use absolute path with explicit temp directory by default
+        if notebook_dir:
+            self.notebook_dir = Path(notebook_dir).resolve()
+        else:
+            self.notebook_dir = Path(tempfile.gettempdir()) / "ai_data_science_team" / "notebooks"
         self.notebook: Optional[MarimoNotebook] = None
         self.config: Dict[str, Any] = {}
         self.results: Dict[str, Any] = {}
