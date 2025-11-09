@@ -21,18 +21,12 @@ let package = Package(
         .target(
             name: "VirtualKeyboardApp",
             dependencies: [],
-            path: "Sources",
-            swiftSettings: [
-                .upcomingFeature("StrictConcurrency"),
-            ]
+            path: "Sources"
         ),
         .testTarget(
             name: "VirtualKeyboardAppTests",
             dependencies: ["VirtualKeyboardApp"],
-            path: "Tests",
-            swiftSettings: [
-                .upcomingFeature("StrictConcurrency"),
-            ]
+            path: "Tests"
         ),
     ]
 )
